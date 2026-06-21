@@ -1,0 +1,13 @@
+{
+    "name": "botega/adesioni-plugin",
+    "description": "Plugin WordPress Botega Adesioni",
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    },
+    "config": {
+        "vendor-dir": "vendor",
+        "platform": {
+            "php": "8.1"
+        }
+    }
+}
