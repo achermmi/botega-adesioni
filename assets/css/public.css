@@ -1,0 +1,307 @@
+/* ================================================================
+   Botega Adesioni – CSS Pubblico (form iscrizione)
+   ================================================================ */
+
+:root {
+  --ba-verde:  #2c3a00;
+  --ba-giallo: #d4e000;
+  --ba-ocra:   #C8960A;
+  --ba-rame:   #A06828;
+  --ba-prato:  #5C7A4A;
+  --ba-avorio: #F8F0E0;
+  --ba-errore: #dc3545;
+  --ba-ok:     #28a745;
+  --ba-grigio: #f8f9fa;
+  --ba-border: #dee2e6;
+  --ba-radius: 8px;
+  --ba-shadow: 0 2px 12px rgba(0,0,0,0.09);
+}
+
+/* ── Wrap ─────────────────────────────────────────────────────── */
+.ba-public-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: inherit;
+}
+
+/* ── Messaggi ─────────────────────────────────────────────────── */
+.ba-public-success {
+  text-align: center;
+  padding: 40px 30px;
+  background: #f0fff4;
+  border: 2px solid var(--ba-ok);
+  border-radius: var(--ba-radius);
+  margin: 20px 0;
+}
+.ba-success-icon { font-size: 48px; margin-bottom: 12px; }
+.ba-public-success h3 { color: var(--ba-ok); font-size: 22px; margin-bottom: 10px; }
+.ba-public-success p  { color: #333; line-height: 1.7; max-width: 520px; margin: 0 auto 16px; }
+.ba-success-email-ok {
+  background: #d4edda; border: 1px solid #c3e6cb; color: #155724;
+  border-radius: 6px; padding: 10px 14px; margin: 10px auto 16px;
+  max-width: 480px; font-size: 14px; line-height: 1.5;
+}
+.ba-success-email-warn {
+  background: #fff3cd; border: 1px solid #ffc107; color: #856404;
+  border-radius: 6px; padding: 10px 14px; margin: 10px auto 16px;
+  max-width: 480px; font-size: 14px; line-height: 1.5;
+}
+
+.ba-public-error {
+  background: #fff5f5;
+  border: 1.5px solid var(--ba-errore);
+  color: #842029;
+  border-radius: var(--ba-radius);
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* ── Grid ─────────────────────────────────────────────────────── */
+.ba-pub-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* ── Colonne grid ──────────────────────────────────────────────── */
+.ba-pub-col-main {
+  display: flex;
+  flex-direction: column;
+}
+.ba-pub-col-main .ba-pub-section:last-child {
+  flex: 1;
+}
+
+/* ── Sezioni ──────────────────────────────────────────────────── */
+.ba-pub-section {
+  background: #fff;
+  border: 1px solid var(--ba-border);
+  border-radius: var(--ba-radius);
+  padding: 24px;
+  box-shadow: var(--ba-shadow);
+  margin-bottom: 16px;
+}
+.ba-pub-section-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ba-verde);
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--ba-giallo);
+}
+
+/* ── Campi ────────────────────────────────────────────────────── */
+.ba-pub-field {
+  margin-bottom: 16px;
+}
+.ba-pub-field label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 5px;
+}
+.ba-pub-field input[type="text"],
+.ba-pub-field input[type="email"],
+.ba-pub-field input[type="tel"],
+.ba-pub-field input[type="number"],
+.ba-pub-field textarea,
+.ba-pub-field select {
+  width: 100%;
+  border: 1.5px solid var(--ba-border);
+  border-radius: 6px;
+  padding: 9px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  background: #fafafa;
+  color: #111;
+  transition: border-color .15s, background .15s;
+  box-sizing: border-box;
+}
+.ba-pub-field input:focus,
+.ba-pub-field textarea:focus {
+  border-color: var(--ba-verde);
+  background: #fff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(44,58,0,0.1);
+}
+.ba-pub-field input.ba-invalid { border-color: var(--ba-errore); }
+.ba-pub-field input.ba-valid   { border-color: var(--ba-ok); }
+
+/* Campo obbligatorio */
+.ba-pub-field-required label::after,
+.ba-req { color: var(--ba-errore); }
+.ba-field-hint {
+  display: block;
+  font-size: 11px;
+  color: #777;
+  margin-top: 4px;
+}
+
+.ba-pub-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* Autocomplete dropdown */
+.ba-autocomplete-dropdown {
+  position: absolute;
+  z-index: 9999;
+  background: #fff;
+  border: 1px solid var(--ba-border);
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  max-height: 240px;
+  overflow-y: auto;
+  width: 100%;
+}
+.ba-autocomplete-item {
+  padding: 9px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background .1s;
+}
+.ba-autocomplete-item:hover,
+.ba-autocomplete-item.active { background: var(--ba-avorio); }
+.ba-autocomplete-item:last-child { border-bottom: none; }
+.ba-autocomplete-wrap { position: relative; }
+
+/* ── Quota / donazione ────────────────────────────────────────── */
+.ba-pub-quota-box { background: var(--ba-avorio); border-color: var(--ba-ocra); }
+
+.ba-pub-check-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  margin-bottom: 14px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.ba-pub-check-label input[type="checkbox"] {
+  display: none;
+}
+.ba-pub-check-box {
+  flex-shrink: 0;
+  width: 20px; height: 20px;
+  border: 2px solid var(--ba-rame);
+  border-radius: 4px;
+  background: #fff;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s, border-color .15s;
+  margin-top: 2px;
+}
+.ba-pub-check-label input:checked + .ba-pub-check-box {
+  background: var(--ba-prato);
+  border-color: var(--ba-prato);
+}
+.ba-pub-check-label input:checked + .ba-pub-check-box::after {
+  content: '✓';
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+}
+.ba-pub-check-txt { font-size: 14px; line-height: 1.4; }
+.ba-pub-check-txt strong { display: block; color: var(--ba-verde); font-size: 15px; }
+.ba-pub-check-txt em { color: var(--ba-rame); font-style: normal; font-weight: 600; }
+
+/* Donazione importo */
+.ba-pub-donazione-wrap {
+  display: none;
+  margin: 8px 0 14px 30px;
+}
+.ba-pub-donazione-wrap.visible { display: block; }
+.ba-pub-don-label { font-size: 12px; color: #555; margin-bottom: 5px; display: block; }
+.ba-pub-don-input-wrap { display: flex; align-items: center; gap: 6px; }
+.ba-pub-don-prefix { font-weight: bold; color: var(--ba-verde); }
+.ba-pub-don-input-wrap input {
+  width: 110px;
+  border: 1.5px solid var(--ba-border);
+  border-radius: 6px;
+  padding: 7px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Totale */
+.ba-pub-totale-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--ba-verde);
+  color: var(--ba-giallo);
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin: 14px 0;
+  font-size: 15px;
+}
+.ba-pub-totale-box strong { font-size: 20px; }
+
+/* Info box */
+.ba-pub-info-box {
+  background: #fff;
+  border: 1px solid var(--ba-border);
+  border-radius: 6px;
+  padding: 12px 14px;
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.ba-pub-info-box ul { margin: 6px 0 6px 16px; }
+.ba-pub-info-box li { margin-bottom: 3px; }
+.ba-iban { margin-top: 8px; font-size: 12px; color: var(--ba-verde); }
+
+/* Privacy */
+.ba-pub-privacy-txt a { color: var(--ba-rame); }
+.ba-pub-privacy-txt { font-size: 12px; color: #555; }
+
+/* Submit */
+.ba-pub-btn-submit {
+  width: 100%;
+  padding: 13px;
+  background: var(--ba-giallo);
+  color: var(--ba-verde);
+  border: 2px solid var(--ba-verde);
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all .18s;
+  letter-spacing: 0.3px;
+}
+.ba-pub-btn-submit:hover {
+  background: var(--ba-verde);
+  color: var(--ba-giallo);
+}
+.ba-pub-btn-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.ba-pub-required-note { font-size: 11px; color: #888; text-align: center; margin-top: 8px; }
+
+/* Link secondario */
+.ba-btn-secondary {
+  display: inline-block;
+  padding: 9px 20px;
+  border: 1.5px solid var(--ba-verde);
+  color: var(--ba-verde);
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 700px) {
+  .ba-pub-grid     { grid-template-columns: 1fr; }
+  .ba-pub-col-main { order: 1; }
+  .ba-pub-col-side { order: 2; }
+  .ba-pub-row-2    { grid-template-columns: 1fr; }
+}
