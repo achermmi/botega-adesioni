@@ -1,0 +1,161 @@
+/* Botega Adesioni - Public Form Styles */
+
+.ba-form-wrap {
+	max-width: 720px;
+	margin: 0 auto;
+	font-family: inherit;
+}
+
+/* Notices */
+.ba-notice {
+	padding: 12px 16px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.ba-notice--success {
+	background-color: #d1e7dd;
+	color: #0f5132;
+	border: 1px solid #a3cfbb;
+}
+
+.ba-notice--error {
+	background-color: #f8d7da;
+	color: #842029;
+	border: 1px solid #f1aeb5;
+}
+
+.ba-notice--error ul {
+	margin: 8px 0 0 20px;
+	padding: 0;
+}
+
+/* Fieldsets */
+.ba-fieldset {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 16px 20px 20px;
+	margin-bottom: 24px;
+}
+
+.ba-fieldset legend {
+	font-weight: 700;
+	font-size: 1em;
+	padding: 0 6px;
+	color: #333;
+}
+
+/* Fields */
+.ba-field {
+	margin-bottom: 16px;
+}
+
+.ba-field label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 4px;
+	font-size: 0.95em;
+}
+
+.ba-field input[type="text"],
+.ba-field input[type="email"],
+.ba-field input[type="tel"],
+.ba-field input[type="date"],
+.ba-field textarea {
+	width: 100%;
+	padding: 8px 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 1em;
+	font-family: inherit;
+	line-height: 1.4;
+	box-sizing: border-box;
+	transition: border-color 0.2s;
+}
+
+.ba-field input:focus,
+.ba-field textarea:focus {
+	outline: none;
+	border-color: #2271b1;
+	box-shadow: 0 0 0 3px rgba(34, 113, 177, 0.15);
+}
+
+.ba-field textarea {
+	resize: vertical;
+	min-height: 100px;
+}
+
+/* Checkbox fields */
+.ba-field--checkbox label {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.ba-field--checkbox input[type="checkbox"] {
+	margin-top: 3px;
+	flex-shrink: 0;
+}
+
+/* Row layouts */
+.ba-row {
+	display: grid;
+	gap: 16px;
+}
+
+.ba-row--2col {
+	grid-template-columns: 1fr 1fr;
+}
+
+.ba-row--3col {
+	grid-template-columns: 100px 1fr 80px;
+}
+
+@media (max-width: 600px) {
+	.ba-row--2col,
+	.ba-row--3col {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Required asterisk */
+.ba-required {
+	color: #b32d2e;
+	margin-left: 2px;
+}
+
+.ba-required-note {
+	font-size: 0.85em;
+	color: #555;
+	margin-top: -12px;
+	margin-bottom: 20px;
+}
+
+/* Submit button */
+.ba-submit {
+	margin-top: 8px;
+}
+
+.ba-btn {
+	display: inline-block;
+	padding: 10px 24px;
+	border: none;
+	border-radius: 4px;
+	font-size: 1em;
+	font-family: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	transition: background-color 0.2s;
+}
+
+.ba-btn--primary {
+	background-color: #2271b1;
+	color: #fff;
+}
+
+.ba-btn--primary:hover {
+	background-color: #135e96;
+}
