@@ -1,0 +1,1074 @@
+# Botega Adesioni – Italiano (it_IT)
+# Copyright (C) 2024 La Botega da la Lavizzara
+# Text Domain: botega-adesioni
+msgid ""
+msgstr ""
+"Project-Id-Version: Botega Adesioni 1.0.0\n"
+"POT-Creation-Date: 2024-01-01\n"
+"PO-Revision-Date: 2024-01-01\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Text-Domain: botega-adesioni\n"
+
+# ── Menu / Navigazione ───────────────────────────────────────────────────────
+
+msgid "Botega Adesioni"
+msgstr "Botega Adesioni"
+
+msgid "Adesioni"
+msgstr "Adesioni"
+
+msgid "Tutte le adesioni"
+msgstr "Tutte le adesioni"
+
+msgid "Nuova adesione"
+msgstr "Nuova adesione"
+
+msgid "+ Nuova adesione"
+msgstr "+ Nuova adesione"
+
+msgid "+ Nuova adesione (admin)"
+msgstr "+ Nuova adesione (admin)"
+
+msgid "Campi personalizzati"
+msgstr "Campi personalizzati"
+
+msgid "Impostazioni"
+msgstr "Impostazioni"
+
+msgid "Ruoli e accessi"
+msgstr "Ruoli e accessi"
+
+msgid "👥 Ruoli e accessi"
+msgstr "👥 Ruoli e accessi"
+
+msgid "Ruoli e accessi – Botega Adesioni"
+msgstr "Ruoli e accessi – Botega Adesioni"
+
+msgid "Impostazioni – Botega Adesioni"
+msgstr "Impostazioni – Botega Adesioni"
+
+# ── Stato pagamento ──────────────────────────────────────────────────────────
+
+msgid "Sospeso"
+msgstr "Sospeso"
+
+msgid "Inviato"
+msgstr "Inviato"
+
+msgid "Errore invio"
+msgstr "Errore invio"
+
+msgid "Pagato"
+msgstr "Pagato"
+
+msgid "Socio onorario"
+msgstr "Socio onorario"
+
+msgid "Stornato"
+msgstr "Stornato"
+
+msgid "Annullato"
+msgstr "Annullato"
+
+# ── Tipo socio ───────────────────────────────────────────────────────────────
+
+msgid "Socio attivo"
+msgstr "Socio attivo"
+
+msgid "Socio passivo"
+msgstr "Socio passivo"
+
+msgid "Membro di comitato"
+msgstr "Membro di comitato"
+
+msgid "Aiuto comitato"
+msgstr "Aiuto comitato"
+
+msgid "Presidente"
+msgstr "Presidente"
+
+msgid "Altro"
+msgstr "Altro"
+
+# ── Metodo pagamento ─────────────────────────────────────────────────────────
+
+msgid "Fattura"
+msgstr "Fattura"
+
+msgid "TWINT"
+msgstr "TWINT"
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "Carta di credito/debito"
+msgstr "Carta di credito/debito"
+
+# ── Tipi PDF ─────────────────────────────────────────────────────────────────
+
+msgid "Cedolino di pagamento"
+msgstr "Cedolino di pagamento"
+
+msgid "Attestato quota sociale"
+msgstr "Attestato quota sociale"
+
+msgid "Attestato donazione"
+msgstr "Attestato donazione"
+
+msgid "Conferma pagamento"
+msgstr "Conferma pagamento"
+
+# ── Tipi campo custom ────────────────────────────────────────────────────────
+
+msgid "Testo"
+msgstr "Testo"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Data e ora"
+msgstr "Data e ora"
+
+msgid "Numerico con 2 decimali"
+msgstr "Numerico con 2 decimali"
+
+msgid "Numerico senza decimali"
+msgstr "Numerico senza decimali"
+
+msgid "Casella di spunta (Checkbox)"
+msgstr "Casella di spunta (Checkbox)"
+
+msgid "Scelta multipla (Radio)"
+msgstr "Scelta multipla (Radio)"
+
+# ── Operatori filtro ─────────────────────────────────────────────────────────
+
+msgid "uguale a (=)"
+msgstr "uguale a (=)"
+
+msgid "diverso da (≠)"
+msgstr "diverso da (≠)"
+
+msgid "contiene"
+msgstr "contiene"
+
+msgid "maggiore di (>)"
+msgstr "maggiore di (>)"
+
+msgid "minore di (<)"
+msgstr "minore di (<)"
+
+msgid "maggiore o uguale (≥)"
+msgstr "maggiore o uguale (≥)"
+
+msgid "minore o uguale (≤)"
+msgstr "minore o uguale (≤)"
+
+# ── Messaggi di sistema ──────────────────────────────────────────────────────
+
+msgid "Record salvato con successo."
+msgstr "Record salvato con successo."
+
+msgid "Errore durante il salvataggio."
+msgstr "Errore durante il salvataggio."
+
+msgid "Errore durante il salvataggio. Riprovare."
+msgstr "Errore durante il salvataggio. Riprovare."
+
+msgid "Record eliminato."
+msgstr "Record eliminato."
+
+msgid "Errore durante l'eliminazione."
+msgstr "Errore durante l'eliminazione."
+
+msgid "Record non trovato."
+msgstr "Record non trovato."
+
+msgid "Impostazioni salvate."
+msgstr "Impostazioni salvate."
+
+msgid "Accesso negato."
+msgstr "Accesso negato."
+
+msgid "Accesso riservato. Il tuo account non ha i permessi necessari."
+msgstr "Accesso riservato. Il tuo account non ha i permessi necessari."
+
+msgid "Sessione scaduta. Riprovare."
+msgstr "Sessione scaduta. Riprovare."
+
+msgid "Si è verificato un errore. Riprovare."
+msgstr "Si è verificato un errore. Riprovare."
+
+msgid "Eliminazione in corso..."
+msgstr "Eliminazione in corso..."
+
+msgid "Invio email in corso..."
+msgstr "Invio email in corso..."
+
+msgid "La label è obbligatoria."
+msgstr "La label è obbligatoria."
+
+msgid "Campo aggiunto."
+msgstr "Campo aggiunto."
+
+msgid "Errore durante la creazione del campo."
+msgstr "Errore durante la creazione del campo."
+
+msgid "PDF generato con successo."
+msgstr "PDF generato con successo."
+
+msgid "Errore nella generazione del PDF."
+msgstr "Errore nella generazione del PDF."
+
+msgid "PDF eliminato."
+msgstr "PDF eliminato."
+
+msgid "File rinominato."
+msgstr "File rinominato."
+
+msgid "Errore durante la rinominazione."
+msgstr "Errore durante la rinominazione."
+
+msgid "Cedolino inviato."
+msgstr "Cedolino inviato."
+
+msgid "Errore invio email. Stato aggiornato a \"Errore invio\"."
+msgstr "Errore invio email. Stato aggiornato a \"Errore invio\"."
+
+msgid "File non trovato."
+msgstr "File non trovato."
+
+msgid "File non trovato e impossibile rigenerarlo."
+msgstr "File non trovato e impossibile rigenerarlo."
+
+msgid "Attestato non trovato."
+msgstr "Attestato non trovato."
+
+msgid "⚠️ Record salvato ma l'email con cedolino non è stata inviata. Stato aggiornato a \"Errore invio\". Verificare la configurazione email."
+msgstr "⚠️ Record salvato ma l'email con cedolino non è stata inviata. Stato aggiornato a \"Errore invio\". Verificare la configurazione email."
+
+msgid "✅ Record salvato e cedolino di pagamento inviato via email."
+msgstr "✅ Record salvato e cedolino di pagamento inviato via email."
+
+msgid "⚠️ Record salvato ma l'email con cedolino non è stata inviata."
+msgstr "⚠️ Record salvato ma l'email con cedolino non è stata inviata."
+
+msgid "✅ Record salvato e cedolino inviato via email."
+msgstr "✅ Record salvato e cedolino inviato via email."
+
+msgid "Sei sicuro di voler eliminare questo record? L'operazione non può essere annullata."
+msgstr "Sei sicuro di voler eliminare questo record? L'operazione non può essere annullata."
+
+msgid "Inviare email di richiamo a tutti i pagamenti sospesi/inviati selezionati?"
+msgstr "Inviare email di richiamo a tutti i pagamenti sospesi/inviati selezionati?"
+
+msgid "Devi <a href=\"%s\">effettuare il login</a> per accedere a questa pagina."
+msgstr "Devi <a href=\"%s\">effettuare il login</a> per accedere a questa pagina."
+
+# ── Validazione form pubblico ────────────────────────────────────────────────
+
+msgid "Inserire un indirizzo e-mail valido."
+msgstr "Inserire un indirizzo e-mail valido."
+
+msgid "Inserire Cognome e Nome."
+msgstr "Inserire Cognome e Nome."
+
+msgid "Selezionare almeno la quota associativa o inserire un importo di donazione."
+msgstr "Selezionare almeno la quota associativa o inserire un importo di donazione."
+
+msgid "L'indirizzo e-mail è obbligatorio."
+msgstr "L'indirizzo e-mail è obbligatorio."
+
+msgid "Invio in corso…"
+msgstr "Invio in corso…"
+
+msgid "✅ Iscrizione inviata! Controlla la tua email per il cedolino di pagamento."
+msgstr "✅ Iscrizione inviata! Controlla la tua email per il cedolino di pagamento."
+
+msgid "Cognome e nome sono obbligatori."
+msgstr "Cognome e nome sono obbligatori."
+
+msgid "Indirizzo e-mail non valido."
+msgstr "Indirizzo e-mail non valido."
+
+msgid "Il dominio dell'indirizzo e-mail non risulta attivo. Verificare l'indirizzo inserito."
+msgstr "Il dominio dell'indirizzo e-mail non risulta attivo. Verificare l'indirizzo inserito."
+
+msgid "Selezionare la quota associativa e/o inserire un importo di donazione."
+msgstr "Selezionare la quota associativa e/o inserire un importo di donazione."
+
+# ── Email – oggetti ──────────────────────────────────────────────────────────
+
+msgid "Domanda di adesione ricevuta – La Botega da la Lavizzara"
+msgstr "Domanda di adesione ricevuta – La Botega da la Lavizzara"
+
+msgid "Benvenuto come Socio Onorario – La Botega da la Lavizzara"
+msgstr "Benvenuto come Socio Onorario – La Botega da la Lavizzara"
+
+msgid "Conferma pagamento adesione – La Botega da la Lavizzara"
+msgstr "Conferma pagamento adesione – La Botega da la Lavizzara"
+
+msgid "Promemoria pagamento – La Botega da la Lavizzara"
+msgstr "Promemoria pagamento – La Botega da la Lavizzara"
+
+# ── Email – corpi default ────────────────────────────────────────────────────
+
+msgid ""
+"Gentile {{nome}},\n"
+"\n"
+"abbiamo ricevuto la sua domanda di adesione alla Cooperativa \"La Botega da "
+"la Lavizzara\" come {{tipo_socio}}.\n"
+"\n"
+"In allegato trova il cedolino di pagamento con tutti i dati necessari per "
+"effettuare il versamento.\n"
+"\n"
+"⚠️ La sua adesione sarà attiva solo dopo la ricezione del pagamento della "
+"quota sociale di {{importo}}.\n"
+"\n"
+"ID Membro: {{id_membro}}\n"
+"ID Quota: {{id_quota}}\n"
+"\n"
+"Per qualsiasi informazione non esiti a contattarci.\n"
+"\n"
+"Cordiali saluti,\n"
+"La segreteria de La Botega da la Lavizzara\n"
+"labotegalavizzara@gmail.com"
+msgstr ""
+"Gentile {{nome}},\n"
+"\n"
+"abbiamo ricevuto la sua domanda di adesione alla Cooperativa \"La Botega da "
+"la Lavizzara\" come {{tipo_socio}}.\n"
+"\n"
+"In allegato trova il cedolino di pagamento con tutti i dati necessari per "
+"effettuare il versamento.\n"
+"\n"
+"⚠️ La sua adesione sarà attiva solo dopo la ricezione del pagamento della "
+"quota sociale di {{importo}}.\n"
+"\n"
+"ID Membro: {{id_membro}}\n"
+"ID Quota: {{id_quota}}\n"
+"\n"
+"Per qualsiasi informazione non esiti a contattarci.\n"
+"\n"
+"Cordiali saluti,\n"
+"La segreteria de La Botega da la Lavizzara\n"
+"labotegalavizzara@gmail.com"
+
+msgid ""
+"Gentile {{nome}},\n"
+"\n"
+"Confermiamo la ricezione del pagamento per la sua adesione alla Cooperativa.\n"
+"\n"
+"ID Membro: {{id_membro}}\n"
+"ID Quota: {{id_quota}}\n"
+"Importo: {{importo}}\n"
+"Data: {{data_adesione}}\n"
+"\n"
+"In allegato trova la conferma di pagamento e gli attestati.\n"
+"\n"
+"Grazie per il suo sostegno!\n"
+"La Botega da la Lavizzara"
+msgstr ""
+"Gentile {{nome}},\n"
+"\n"
+"Confermiamo la ricezione del pagamento per la sua adesione alla Cooperativa.\n"
+"\n"
+"ID Membro: {{id_membro}}\n"
+"ID Quota: {{id_quota}}\n"
+"Importo: {{importo}}\n"
+"Data: {{data_adesione}}\n"
+"\n"
+"In allegato trova la conferma di pagamento e gli attestati.\n"
+"\n"
+"Grazie per il suo sostegno!\n"
+"La Botega da la Lavizzara"
+
+msgid ""
+"Gentile {{nome}},\n"
+"\n"
+"siamo lieti di comunicarle che è stata designata/o come Socio Onorario della "
+"Cooperativa \"La Botega da la Lavizzara\".\n"
+"\n"
+"In allegato trova il suo attestato di Socio Onorario.\n"
+"\n"
+"Con stima e cordiali saluti,\n"
+"Il Comitato de La Botega da la Lavizzara"
+msgstr ""
+"Gentile {{nome}},\n"
+"\n"
+"siamo lieti di comunicarle che è stata designata/o come Socio Onorario della "
+"Cooperativa \"La Botega da la Lavizzara\".\n"
+"\n"
+"In allegato trova il suo attestato di Socio Onorario.\n"
+"\n"
+"Con stima e cordiali saluti,\n"
+"Il Comitato de La Botega da la Lavizzara"
+
+msgid ""
+"Gentile {{nome}},\n"
+"\n"
+"la ricordiamo che risulta ancora in sospeso il pagamento della sua quota di "
+"adesione di {{importo}}.\n"
+"\n"
+"IBAN: {{iban}}\n"
+"Riferimento: {{id_quota}}\n"
+"\n"
+"Cordiali saluti,\n"
+"La Botega da la Lavizzara\n"
+"labotegalavizzara@gmail.com"
+msgstr ""
+"Gentile {{nome}},\n"
+"\n"
+"la ricordiamo che risulta ancora in sospeso il pagamento della sua quota di "
+"adesione di {{importo}}.\n"
+"\n"
+"IBAN: {{iban}}\n"
+"Riferimento: {{id_quota}}\n"
+"\n"
+"Cordiali saluti,\n"
+"La Botega da la Lavizzara\n"
+"labotegalavizzara@gmail.com"
+
+# ── Form pubblico ────────────────────────────────────────────────────────────
+
+msgid "Donazione ricevuta!"
+msgstr "Donazione ricevuta!"
+
+msgid "Iscrizione ricevuta!"
+msgstr "Iscrizione ricevuta!"
+
+msgid "Grazie per aver aderito alla Cooperativa La Botega da la Lavizzara! La tua donazione sarà attiva dopo la ricezione del pagamento."
+msgstr "Grazie per aver aderito alla Cooperativa La Botega da la Lavizzara! La tua donazione sarà attiva dopo la ricezione del pagamento."
+
+msgid "Grazie per aver aderito alla Cooperativa La Botega da la Lavizzara! La tua iscrizione sarà attiva dopo la ricezione del pagamento."
+msgstr "Grazie per aver aderito alla Cooperativa La Botega da la Lavizzara! La tua iscrizione sarà attiva dopo la ricezione del pagamento."
+
+msgid "Ti abbiamo inviato un'email con il cedolino di pagamento. Controlla la tua casella di posta (anche la cartella Spam)."
+msgstr "Ti abbiamo inviato un'email con il cedolino di pagamento. Controlla la tua casella di posta (anche la cartella Spam)."
+
+msgid "La tua iscrizione è stata registrata, ma non è stato possibile inviare l'email di conferma. Contattaci a labotegalavizzara@gmail.com indicando il tuo nome per ricevere il cedolino."
+msgstr "La tua iscrizione è stata registrata, ma non è stato possibile inviare l'email di conferma. Contattaci a labotegalavizzara@gmail.com indicando il tuo nome per ricevere il cedolino."
+
+msgid "Riceverai a breve un'email con il cedolino di pagamento."
+msgstr "Riceverai a breve un'email con il cedolino di pagamento."
+
+msgid "← Torna alla homepage"
+msgstr "← Torna alla homepage"
+
+msgid "⚠️ Attenzione:"
+msgstr "⚠️ Attenzione:"
+
+msgid "Dati personali"
+msgstr "Dati personali"
+
+msgid "Cognome e nome"
+msgstr "Cognome e nome"
+
+msgid "Via / Strada…"
+msgstr "Via / Strada…"
+
+msgid "CAP"
+msgstr "CAP"
+
+msgid "Località"
+msgstr "Località"
+
+msgid "Comune / Città"
+msgstr "Comune / Città"
+
+msgid "Numero di telefono"
+msgstr "Numero di telefono"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Riceverai il cedolino di pagamento a questo indirizzo."
+msgstr "Riceverai il cedolino di pagamento a questo indirizzo."
+
+msgid "Note (facoltativo)"
+msgstr "Note (facoltativo)"
+
+msgid "Eventuali note o messaggi per il comitato…"
+msgstr "Eventuali note o messaggi per il comitato…"
+
+msgid "Quota e contributo"
+msgstr "Quota e contributo"
+
+msgid "Quota associativa"
+msgstr "Quota associativa"
+
+msgid "Donazione volontaria"
+msgstr "Donazione volontaria"
+
+msgid "Importo donazione (CHF)"
+msgstr "Importo donazione (CHF)"
+
+msgid "Importo totale:"
+msgstr "Importo totale:"
+
+msgid "Modalità di pagamento:"
+msgstr "Modalità di pagamento:"
+
+msgid "Riceverai un cedolino di pagamento via email. Potrai pagare tramite:"
+msgstr "Riceverai un cedolino di pagamento via email. Potrai pagare tramite:"
+
+msgid "E-banking (QR code)"
+msgstr "E-banking (QR code)"
+
+msgid "Bonifico bancario"
+msgstr "Bonifico bancario"
+
+msgid "Ufficio postale / Banca"
+msgstr "Ufficio postale / Banca"
+
+msgid "Ho letto e accetto la %spolitica sulla privacy%s e lo statuto della Cooperativa."
+msgstr "Ho letto e accetto la %spolitica sulla privacy%s e lo statuto della Cooperativa."
+
+msgid "Invia adesione / donazione"
+msgstr "Invia adesione / donazione"
+
+msgid "Campi obbligatori"
+msgstr "Campi obbligatori"
+
+# ── Form admin (scheda record) ───────────────────────────────────────────────
+
+msgid "Modifica: %s"
+msgstr "Modifica: %s"
+
+msgid "← Torna all'elenco"
+msgstr "← Torna all'elenco"
+
+msgid "Elimina record"
+msgstr "Elimina record"
+
+msgid "Stampa / PDF"
+msgstr "Stampa / PDF"
+
+msgid "Dati anagrafici"
+msgstr "Dati anagrafici"
+
+msgid "Cognome e nome *"
+msgstr "Cognome e nome *"
+
+msgid "Indirizzo"
+msgstr "Indirizzo"
+
+msgid "Telefono"
+msgstr "Telefono"
+
+msgid "E-mail *"
+msgstr "E-mail *"
+
+msgid "Tipo socio"
+msgstr "Tipo socio"
+
+msgid "Data adesione"
+msgstr "Data adesione"
+
+msgid "Dati versamento (bollettino QR)"
+msgstr "Dati versamento (bollettino QR)"
+
+msgid "Compilare se diversi dai dati anagrafici."
+msgstr "Compilare se diversi dai dati anagrafici."
+
+msgid "Cognome e nome versamento"
+msgstr "Cognome e nome versamento"
+
+msgid "Indirizzo versamento"
+msgstr "Indirizzo versamento"
+
+msgid "CAP e Località"
+msgstr "CAP e Località"
+
+msgid "Note"
+msgstr "Note"
+
+msgid "Documenti PDF"
+msgstr "Documenti PDF"
+
+msgid "Genera PDF"
+msgstr "Genera PDF"
+
+msgid "Nessun documento generato ancora."
+msgstr "Nessun documento generato ancora."
+
+msgid "Scarica"
+msgstr "Scarica"
+
+msgid "Rinomina"
+msgstr "Rinomina"
+
+msgid "Elimina"
+msgstr "Elimina"
+
+msgid "Invia cedolino per email"
+msgstr "Invia cedolino per email"
+
+msgid "Genera il cedolino PDF e lo invia via email. Aggiorna lo stato a \"Inviato\" oppure \"Errore invio\"."
+msgstr "Genera il cedolino PDF e lo invia via email. Aggiorna lo stato a \"Inviato\" oppure \"Errore invio\"."
+
+msgid "Quota e importo"
+msgstr "Quota e importo"
+
+msgid "Quota associativa CHF 250.00"
+msgstr "Quota associativa CHF 250.00"
+
+msgid "Donazione"
+msgstr "Donazione"
+
+msgid "Donazione (CHF)"
+msgstr "Donazione (CHF)"
+
+msgid "Importo totale"
+msgstr "Importo totale"
+
+msgid "Importo totale calcolato"
+msgstr "Importo totale calcolato"
+
+msgid "Pagamento"
+msgstr "Pagamento"
+
+msgid "Metodo di pagamento"
+msgstr "Metodo di pagamento"
+
+msgid "Stato pagamento"
+msgstr "Stato pagamento"
+
+msgid "Invia richiamo pagamento"
+msgstr "Invia richiamo pagamento"
+
+msgid "Invia email di richiamo all'indirizzo del socio."
+msgstr "Invia email di richiamo all'indirizzo del socio."
+
+msgid "Informazioni record"
+msgstr "Informazioni record"
+
+msgid "ID DB:"
+msgstr "ID DB:"
+
+msgid "ID Membro:"
+msgstr "ID Membro:"
+
+msgid "ID Quota:"
+msgstr "ID Quota:"
+
+msgid "Creato:"
+msgstr "Creato:"
+
+msgid "Modificato:"
+msgstr "Modificato:"
+
+msgid "Salva modifiche"
+msgstr "Salva modifiche"
+
+msgid "Crea adesione"
+msgstr "Crea adesione"
+
+msgid "Annulla"
+msgstr "Annulla"
+
+# ── Lista adesioni ───────────────────────────────────────────────────────────
+
+msgid "Pagina iscrizione pubblica"
+msgstr "Pagina iscrizione pubblica"
+
+msgid "Totale"
+msgstr "Totale"
+
+msgid "Pagati"
+msgstr "Pagati"
+
+msgid "In attesa"
+msgstr "In attesa"
+
+msgid "Incassato"
+msgstr "Incassato"
+
+msgid "Da incassare"
+msgstr "Da incassare"
+
+msgid "Tutti"
+msgstr "Tutti"
+
+msgid "Cerca nome, email, telefono…"
+msgstr "Cerca nome, email, telefono…"
+
+msgid "Logica di filtro"
+msgstr "Logica di filtro"
+
+msgid "Logica: E (AND)"
+msgstr "Logica: E (AND)"
+
+msgid "Logica: O (OR)"
+msgstr "Logica: O (OR)"
+
+msgid "+ Aggiungi filtro"
+msgstr "+ Aggiungi filtro"
+
+msgid "Applica"
+msgstr "Applica"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Cognome e nome"
+msgstr "Cognome e nome"
+
+msgid "Metodo pagamento"
+msgstr "Metodo pagamento"
+
+msgid "Luogo"
+msgstr "Luogo"
+
+msgid "Invia richiamo ai selezionati"
+msgstr "Invia richiamo ai selezionati"
+
+msgid "Richiamo a tutti sospesi/inviati"
+msgstr "Richiamo a tutti sospesi/inviati"
+
+msgid "Esporta:"
+msgstr "Esporta:"
+
+msgid "ID Membro"
+msgstr "ID Membro"
+
+msgid "ID Quota"
+msgstr "ID Quota"
+
+msgid "Metodo"
+msgstr "Metodo"
+
+msgid "Stato"
+msgstr "Stato"
+
+msgid "Importo"
+msgstr "Importo"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Azioni"
+msgstr "Azioni"
+
+msgid "Nessun record trovato."
+msgstr "Nessun record trovato."
+
+msgid "Attestato generato"
+msgstr "Attestato generato"
+
+msgid "Modifica"
+msgstr "Modifica"
+
+msgid "Rimuovi"
+msgstr "Rimuovi"
+
+msgid "%d record"
+msgid_plural "%d record"
+msgstr[0] "%d record"
+msgstr[1] "%d record"
+
+# ── Export ───────────────────────────────────────────────────────────────────
+
+msgid "Elenco Adesioni"
+msgstr "Elenco Adesioni"
+
+msgid "La Botega da la Lavizzara – Elenco Adesioni"
+msgstr "La Botega da la Lavizzara – Elenco Adesioni"
+
+msgid "Stampato il %s – Totale record: %d"
+msgstr "Stampato il %s – Totale record: %d"
+
+msgid "Data creazione"
+msgstr "Data creazione"
+
+msgid "Quota 250.00"
+msgstr "Quota 250.00"
+
+# ── Impostazioni ─────────────────────────────────────────────────────────────
+
+msgid "Pagina pubblica di iscrizione"
+msgstr "Pagina pubblica di iscrizione"
+
+msgid "La pagina pubblica di iscrizione è attiva. Chiunque può compilare il modulo senza effettuare il login."
+msgstr "La pagina pubblica di iscrizione è attiva. Chiunque può compilare il modulo senza effettuare il login."
+
+msgid "Visualizza pagina pubblica"
+msgstr "Visualizza pagina pubblica"
+
+msgid "Modifica pagina"
+msgstr "Modifica pagina"
+
+msgid "URL:"
+msgstr "URL:"
+
+msgid "Shortcode usato nella pagina:"
+msgstr "Shortcode usato nella pagina:"
+
+msgid "— puoi inserirlo in qualsiasi altra pagina WordPress."
+msgstr "— puoi inserirlo in qualsiasi altra pagina WordPress."
+
+msgid "La pagina pubblica non è ancora stata creata."
+msgstr "La pagina pubblica non è ancora stata creata."
+
+msgid "+ Crea pagina pubblica"
+msgstr "+ Crea pagina pubblica"
+
+msgid "Autocomplete indirizzo"
+msgstr "Autocomplete indirizzo"
+
+msgid "Il form pubblico usa OpenStreetMap (Nominatim) per l'autocomplete degli indirizzi, gratuitamente e senza API key. Per usare Google Places (più preciso), inserire una chiave API Google Maps con il servizio \"Places API\" abilitato."
+msgstr "Il form pubblico usa OpenStreetMap (Nominatim) per l'autocomplete degli indirizzi, gratuitamente e senza API key. Per usare Google Places (più preciso), inserire una chiave API Google Maps con il servizio \"Places API\" abilitato."
+
+msgid "Chiave API Google Maps (facoltativa)"
+msgstr "Chiave API Google Maps (facoltativa)"
+
+msgid "Lasciare vuoto per usare OpenStreetMap (gratuito, nessuna registrazione richiesta)."
+msgstr "Lasciare vuoto per usare OpenStreetMap (gratuito, nessuna registrazione richiesta)."
+
+msgid "Mittente email"
+msgstr "Mittente email"
+
+msgid "Nome mittente"
+msgstr "Nome mittente"
+
+msgid "Email mittente"
+msgstr "Email mittente"
+
+msgid "Configurazione SMTP"
+msgstr "Configurazione SMTP"
+
+msgid "⚠️ Il server non supporta la funzione mail() di PHP. Configurare un server SMTP per inviare email correttamente (es. Gmail, Infomaniak, Outlook)."
+msgstr "⚠️ Il server non supporta la funzione mail() di PHP. Configurare un server SMTP per inviare email correttamente (es. Gmail, Infomaniak, Outlook)."
+
+msgid "Abilita invio via SMTP"
+msgstr "Abilita invio via SMTP"
+
+msgid "Server SMTP (Host)"
+msgstr "Server SMTP (Host)"
+
+msgid "Porta"
+msgstr "Porta"
+
+msgid "587 = TLS (raccomandato) · 465 = SSL · 25 = nessuna cifratura"
+msgstr "587 = TLS (raccomandato) · 465 = SSL · 25 = nessuna cifratura"
+
+msgid "Cifratura"
+msgstr "Cifratura"
+
+msgid "Username SMTP"
+msgstr "Username SMTP"
+
+msgid "Password SMTP"
+msgstr "Password SMTP"
+
+msgid "Lasciare vuoto per mantenere la password attuale."
+msgstr "Lasciare vuoto per mantenere la password attuale."
+
+msgid "Password salvata"
+msgstr "Password salvata"
+
+msgid "Configurazioni rapide:"
+msgstr "Configurazioni rapide:"
+
+msgid "Email conferma pagamento"
+msgstr "Email conferma pagamento"
+
+msgid "Inviata automaticamente quando una fattura viene impostata su \"Pagato\"."
+msgstr "Inviata automaticamente quando una fattura viene impostata su \"Pagato\"."
+
+msgid "Placeholder disponibili: {{nome}}, {{email}}, {{tipo_socio}}, {{importo}}, {{quota}}, {{donazione}}, {{metodo}}, {{stato}}, {{data_adesione}}, {{luogo}}, {{iban}}, {{associazione}}, {{data_oggi}}"
+msgstr "Placeholder disponibili: {{nome}}, {{email}}, {{tipo_socio}}, {{importo}}, {{quota}}, {{donazione}}, {{metodo}}, {{stato}}, {{data_adesione}}, {{luogo}}, {{iban}}, {{associazione}}, {{data_oggi}}"
+
+msgid "Oggetto"
+msgstr "Oggetto"
+
+msgid "Corpo email"
+msgstr "Corpo email"
+
+msgid "Email richiamo pagamento"
+msgstr "Email richiamo pagamento"
+
+msgid "Inviata manualmente ai soci con pagamento sospeso/inviato. Stessi placeholder dell'email di conferma."
+msgstr "Inviata manualmente ai soci con pagamento sospeso/inviato. Stessi placeholder dell'email di conferma."
+
+msgid "Salva impostazioni"
+msgstr "Salva impostazioni"
+
+# ── Campi personalizzati (admin) ─────────────────────────────────────────────
+
+msgid "Aggiungi campi aggiuntivi al modulo adesioni. I campi vengono creati automaticamente nel database."
+msgstr "Aggiungi campi aggiuntivi al modulo adesioni. I campi vengono creati automaticamente nel database."
+
+msgid "Aggiungi nuovo campo"
+msgstr "Aggiungi nuovo campo"
+
+msgid "Label (nome visibile)"
+msgstr "Label (nome visibile)"
+
+msgid "es. Data rinnovo"
+msgstr "es. Data rinnovo"
+
+msgid "Tipo di campo"
+msgstr "Tipo di campo"
+
+msgid "Opzioni (una per riga)"
+msgstr "Opzioni (una per riga)"
+
+msgid "+ Aggiungi campo"
+msgstr "+ Aggiungi campo"
+
+msgid "Campi esistenti"
+msgstr "Campi esistenti"
+
+msgid "Nessun campo personalizzato ancora."
+msgstr "Nessun campo personalizzato ancora."
+
+msgid "#"
+msgstr "#"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Chiave DB"
+msgstr "Chiave DB"
+
+msgid "Tipo"
+msgstr "Tipo"
+
+msgid "Opzioni"
+msgstr "Opzioni"
+
+# ── Ruoli ────────────────────────────────────────────────────────────────────
+
+msgid "Assegna ruolo a un utente"
+msgstr "Assegna ruolo a un utente"
+
+msgid "Gli utenti con questi ruoli possono accedere a tutte le pagine del plugin. Gli Amministratori hanno sempre accesso."
+msgstr "Gli utenti con questi ruoli possono accedere a tutte le pagine del plugin. Gli Amministratori hanno sempre accesso."
+
+msgid "— Seleziona utente —"
+msgstr "— Seleziona utente —"
+
+msgid "+ Assegna ruolo"
+msgstr "+ Assegna ruolo"
+
+msgid "Nessun utente con questo ruolo."
+msgstr "Nessun utente con questo ruolo."
+
+msgid "Nome"
+msgstr "Nome"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Azione"
+msgstr "Azione"
+
+msgid "✕ Rimuovi"
+msgstr "✕ Rimuovi"
+
+msgid "Rimuovere %1$s dal ruolo %2$s?"
+msgstr "Rimuovere %1$s dal ruolo %2$s?"
+
+msgid "Nota:"
+msgstr "Nota:"
+
+msgid "Gli Amministratori di WordPress hanno sempre accesso al plugin."
+msgstr "Gli Amministratori di WordPress hanno sempre accesso al plugin."
+
+msgid "✅ %1$s assegnato al ruolo \"%2$s\"."
+msgstr "✅ %1$s assegnato al ruolo \"%2$s\"."
+
+msgid "✅ %1$s rimosso dal ruolo \"%2$s\"."
+msgstr "✅ %1$s rimosso dal ruolo \"%2$s\"."
+
+# ── PDF Attestato ────────────────────────────────────────────────────────────
+
+msgid "Attestato di Donazione"
+msgstr "Attestato di Donazione"
+
+msgid "Attestato di Membro"
+msgstr "Attestato di Membro"
+
+msgid "Ricevuta e ringraziamento per la donazione"
+msgstr "Ricevuta e ringraziamento per la donazione"
+
+msgid "Anno %s"
+msgstr "Anno %s"
+
+msgid "Cooperativa La Botega da la Lavizzara"
+msgstr "Cooperativa La Botega da la Lavizzara"
+
+msgid "La Società Cooperativa La Botega da la Lavizzara ringrazia con gratitudine"
+msgstr "La Società Cooperativa La Botega da la Lavizzara ringrazia con gratitudine"
+
+msgid "La Società Cooperativa La Botega da la Lavizzara certifica che"
+msgstr "La Società Cooperativa La Botega da la Lavizzara certifica che"
+
+msgid "Campo"
+msgstr "Campo"
+
+msgid "Valore"
+msgstr "Valore"
+
+msgid "Il Comitato de La Botega da la Lavizzara"
+msgstr "Il Comitato de La Botega da la Lavizzara"
+
+msgid "Il presente documento certifica la ricezione della donazione indicata. La donazione è deducibile fiscalmente secondo la legislazione vigente (art. 33a LF/LIFD). Si consiglia di conservare questo documento ai fini fiscali."
+msgstr "Il presente documento certifica la ricezione della donazione indicata. La donazione è deducibile fiscalmente secondo la legislazione vigente (art. 33a LF/LIFD). Si consiglia di conservare questo documento ai fini fiscali."
+
+msgid "è regolarmente iscritto/a alla Società Cooperativa \"La Botega da la Lavizzara\" e ha versato la quota sociale conformemente allo statuto vigente. Il presente attestato è valido per l'anno di riferimento indicato."
+msgstr "è regolarmente iscritto/a alla Società Cooperativa \"La Botega da la Lavizzara\" e ha versato la quota sociale conformemente allo statuto vigente. Il presente attestato è valido per l'anno di riferimento indicato."
+
+msgid "\"Il suo generoso contributo sostiene la nostra comunità e ci permette di continuare a valorizzare i prodotti e le tradizioni della Valle Lavizzara. La ringraziamo di cuore.\""
+msgstr "\"Il suo generoso contributo sostiene la nostra comunità e ci permette di continuare a valorizzare i prodotti e le tradizioni della Valle Lavizzara. La ringraziamo di cuore.\""
+
+msgid "Il Presidente"
+msgstr "Il Presidente"
+
+msgid "Prato Sornico, %s"
+msgstr "Prato Sornico, %s"
+
+msgid "La Segretaria"
+msgstr "La Segretaria"
+
+# ── PDF Conferma pagamento ───────────────────────────────────────────────────
+
+msgid "Conferma di Pagamento"
+msgstr "Conferma di Pagamento"
+
+msgid "Emessa il %s"
+msgstr "Emessa il %s"
+
+msgid "Pagamento ricevuto e registrato con successo"
+msgstr "Pagamento ricevuto e registrato con successo"
+
+msgid "Gentile %s,"
+msgstr "Gentile %s,"
+
+msgid "confermiamo la ricezione del suo versamento. La sua adesione alla Cooperativa è ora attiva."
+msgstr "confermiamo la ricezione del suo versamento. La sua adesione alla Cooperativa è ora attiva."
+
+msgid "IMPORTO TOTALE VERSATO"
+msgstr "IMPORTO TOTALE VERSATO"
+
+msgid "La ringraziamo per il suo contributo e la accogliamo con piacere nella nostra comunità cooperativa."
+msgstr "La ringraziamo per il suo contributo e la accogliamo con piacere nella nostra comunità cooperativa."
+
+msgid "Con cordiali saluti,"
+msgstr "Con cordiali saluti,"
+
+msgid "La Botega da la Lavizzara"
+msgstr "La Botega da la Lavizzara"
+
+# ── Pagina adesione (WP) ─────────────────────────────────────────────────────
+
+msgid "Adesione alla Cooperativa"
+msgstr "Adesione alla Cooperativa"

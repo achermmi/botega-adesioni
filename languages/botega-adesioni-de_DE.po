@@ -1,0 +1,1075 @@
+# Botega Adesioni – Deutsch (de_DE)
+# Copyright (C) 2024 La Botega da la Lavizzara
+# Text Domain: botega-adesioni
+msgid ""
+msgstr ""
+"Project-Id-Version: Botega Adesioni 1.0.0\n"
+"POT-Creation-Date: 2024-01-01\n"
+"PO-Revision-Date: 2024-01-01\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Text-Domain: botega-adesioni\n"
+
+# ── Menü / Navigation ────────────────────────────────────────────────────────
+
+msgid "Botega Adesioni"
+msgstr "Botega Adesioni"
+
+msgid "Adesioni"
+msgstr "Mitgliedschaften"
+
+msgid "Tutte le adesioni"
+msgstr "Alle Mitgliedschaften"
+
+msgid "Nuova adesione"
+msgstr "Neue Mitgliedschaft"
+
+msgid "+ Nuova adesione"
+msgstr "+ Neue Mitgliedschaft"
+
+msgid "+ Nuova adesione (admin)"
+msgstr "+ Neue Mitgliedschaft (Admin)"
+
+msgid "Campi personalizzati"
+msgstr "Benutzerdefinierte Felder"
+
+msgid "Impostazioni"
+msgstr "Einstellungen"
+
+msgid "Ruoli e accessi"
+msgstr "Rollen und Zugriff"
+
+msgid "👥 Ruoli e accessi"
+msgstr "👥 Rollen und Zugriff"
+
+msgid "Ruoli e accessi – Botega Adesioni"
+msgstr "Rollen und Zugriff – Botega Adesioni"
+
+msgid "Impostazioni – Botega Adesioni"
+msgstr "Einstellungen – Botega Adesioni"
+
+# ── Zahlungsstatus ───────────────────────────────────────────────────────────
+
+msgid "Sospeso"
+msgstr "Ausstehend"
+
+msgid "Inviato"
+msgstr "Versendet"
+
+msgid "Errore invio"
+msgstr "Sendefehler"
+
+msgid "Pagato"
+msgstr "Bezahlt"
+
+msgid "Socio onorario"
+msgstr "Ehrenmitglied"
+
+msgid "Stornato"
+msgstr "Storniert"
+
+msgid "Annullato"
+msgstr "Abgebrochen"
+
+# ── Mitgliedstyp ─────────────────────────────────────────────────────────────
+
+msgid "Socio attivo"
+msgstr "Aktives Mitglied"
+
+msgid "Socio passivo"
+msgstr "Passives Mitglied"
+
+msgid "Membro di comitato"
+msgstr "Vorstandsmitglied"
+
+msgid "Aiuto comitato"
+msgstr "Vorstandsassistent"
+
+msgid "Presidente"
+msgstr "Präsident"
+
+msgid "Altro"
+msgstr "Sonstiges"
+
+# ── Zahlungsmethode ──────────────────────────────────────────────────────────
+
+msgid "Fattura"
+msgstr "Rechnung"
+
+msgid "TWINT"
+msgstr "TWINT"
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "Carta di credito/debito"
+msgstr "Kredit-/Debitkarte"
+
+# ── PDF-Typen ────────────────────────────────────────────────────────────────
+
+msgid "Cedolino di pagamento"
+msgstr "Einzahlungsschein"
+
+msgid "Attestato quota sociale"
+msgstr "Mitgliedsbescheinigung"
+
+msgid "Attestato donazione"
+msgstr "Spendenbescheinigung"
+
+msgid "Conferma pagamento"
+msgstr "Zahlungsbestätigung"
+
+# ── Benutzerdefinierte Feldtypen ─────────────────────────────────────────────
+
+msgid "Testo"
+msgstr "Text"
+
+msgid "Data"
+msgstr "Datum"
+
+msgid "Data e ora"
+msgstr "Datum und Uhrzeit"
+
+msgid "Numerico con 2 decimali"
+msgstr "Numerisch mit 2 Dezimalstellen"
+
+msgid "Numerico senza decimali"
+msgstr "Numerisch ohne Dezimalstellen"
+
+msgid "Casella di spunta (Checkbox)"
+msgstr "Kontrollkästchen (Checkbox)"
+
+msgid "Scelta multipla (Radio)"
+msgstr "Mehrfachauswahl (Radio)"
+
+# ── Filteroperatoren ─────────────────────────────────────────────────────────
+
+msgid "uguale a (=)"
+msgstr "gleich (=)"
+
+msgid "diverso da (≠)"
+msgstr "ungleich (≠)"
+
+msgid "contiene"
+msgstr "enthält"
+
+msgid "maggiore di (>)"
+msgstr "größer als (>)"
+
+msgid "minore di (<)"
+msgstr "kleiner als (<)"
+
+msgid "maggiore o uguale (≥)"
+msgstr "größer oder gleich (≥)"
+
+msgid "minore o uguale (≤)"
+msgstr "kleiner oder gleich (≤)"
+
+# ── Systemmeldungen ──────────────────────────────────────────────────────────
+
+msgid "Record salvato con successo."
+msgstr "Datensatz erfolgreich gespeichert."
+
+msgid "Errore durante il salvataggio."
+msgstr "Fehler beim Speichern."
+
+msgid "Errore durante il salvataggio. Riprovare."
+msgstr "Fehler beim Speichern. Bitte erneut versuchen."
+
+msgid "Record eliminato."
+msgstr "Datensatz gelöscht."
+
+msgid "Errore durante l'eliminazione."
+msgstr "Fehler beim Löschen."
+
+msgid "Record non trovato."
+msgstr "Datensatz nicht gefunden."
+
+msgid "Impostazioni salvate."
+msgstr "Einstellungen gespeichert."
+
+msgid "Accesso negato."
+msgstr "Zugriff verweigert."
+
+msgid "Accesso riservato. Il tuo account non ha i permessi necessari."
+msgstr "Zugriff eingeschränkt. Ihr Konto verfügt nicht über die erforderlichen Berechtigungen."
+
+msgid "Sessione scaduta. Riprovare."
+msgstr "Sitzung abgelaufen. Bitte erneut versuchen."
+
+msgid "Si è verificato un errore. Riprovare."
+msgstr "Ein Fehler ist aufgetreten. Bitte erneut versuchen."
+
+msgid "Eliminazione in corso..."
+msgstr "Löschvorgang läuft..."
+
+msgid "Invio email in corso..."
+msgstr "E-Mail wird gesendet..."
+
+msgid "La label è obbligatoria."
+msgstr "Das Label ist erforderlich."
+
+msgid "Campo aggiunto."
+msgstr "Feld hinzugefügt."
+
+msgid "Errore durante la creazione del campo."
+msgstr "Fehler beim Erstellen des Feldes."
+
+msgid "PDF generato con successo."
+msgstr "PDF erfolgreich generiert."
+
+msgid "Errore nella generazione del PDF."
+msgstr "Fehler bei der PDF-Generierung."
+
+msgid "PDF eliminato."
+msgstr "PDF gelöscht."
+
+msgid "File rinominato."
+msgstr "Datei umbenannt."
+
+msgid "Errore durante la rinominazione."
+msgstr "Fehler beim Umbenennen."
+
+msgid "Cedolino inviato."
+msgstr "Einzahlungsschein gesendet."
+
+msgid "Errore invio email. Stato aggiornato a \"Errore invio\"."
+msgstr "Fehler beim E-Mail-Versand. Status auf \"Sendefehler\" aktualisiert."
+
+msgid "File non trovato."
+msgstr "Datei nicht gefunden."
+
+msgid "File non trovato e impossibile rigenerarlo."
+msgstr "Datei nicht gefunden und kann nicht neu generiert werden."
+
+msgid "Attestato non trovato."
+msgstr "Bescheinigung nicht gefunden."
+
+msgid "⚠️ Record salvato ma l'email con cedolino non è stata inviata. Stato aggiornato a \"Errore invio\". Verificare la configurazione email."
+msgstr "⚠️ Datensatz gespeichert, aber die E-Mail mit dem Einzahlungsschein wurde nicht versendet. Status auf \"Sendefehler\" aktualisiert. Bitte E-Mail-Konfiguration prüfen."
+
+msgid "✅ Record salvato e cedolino di pagamento inviato via email."
+msgstr "✅ Datensatz gespeichert und Einzahlungsschein per E-Mail versendet."
+
+msgid "⚠️ Record salvato ma l'email con cedolino non è stata inviata."
+msgstr "⚠️ Datensatz gespeichert, aber die E-Mail mit dem Einzahlungsschein wurde nicht versendet."
+
+msgid "✅ Record salvato e cedolino inviato via email."
+msgstr "✅ Datensatz gespeichert und Einzahlungsschein per E-Mail versendet."
+
+msgid "Sei sicuro di voler eliminare questo record? L'operazione non può essere annullata."
+msgstr "Sind Sie sicher, dass Sie diesen Datensatz löschen möchten? Dieser Vorgang kann nicht rückgängig gemacht werden."
+
+msgid "Inviare email di richiamo a tutti i pagamenti sospesi/inviati selezionati?"
+msgstr "Erinnerungs-E-Mail an alle ausgewählten ausstehenden/gesendeten Zahlungen senden?"
+
+msgid "Devi <a href=\"%s\">effettuare il login</a> per accedere a questa pagina."
+msgstr "Sie müssen sich <a href=\"%s\">anmelden</a>, um auf diese Seite zuzugreifen."
+
+# ── Validierung öffentliches Formular ────────────────────────────────────────
+
+msgid "Inserire un indirizzo e-mail valido."
+msgstr "Bitte eine gültige E-Mail-Adresse eingeben."
+
+msgid "Inserire Cognome e Nome."
+msgstr "Bitte Nach- und Vorname eingeben."
+
+msgid "Selezionare almeno la quota associativa o inserire un importo di donazione."
+msgstr "Bitte mindestens den Mitgliedsbeitrag auswählen oder einen Spendenbetrag eingeben."
+
+msgid "L'indirizzo e-mail è obbligatorio."
+msgstr "Die E-Mail-Adresse ist erforderlich."
+
+msgid "Invio in corso…"
+msgstr "Wird gesendet…"
+
+msgid "✅ Iscrizione inviata! Controlla la tua email per il cedolino di pagamento."
+msgstr "✅ Anmeldung gesendet! Prüfen Sie Ihre E-Mail für den Einzahlungsschein."
+
+msgid "Cognome e nome sono obbligatori."
+msgstr "Nach- und Vorname sind erforderlich."
+
+msgid "Indirizzo e-mail non valido."
+msgstr "Ungültige E-Mail-Adresse."
+
+msgid "Il dominio dell'indirizzo e-mail non risulta attivo. Verificare l'indirizzo inserito."
+msgstr "Die Domain der E-Mail-Adresse ist nicht aktiv. Bitte die eingegebene Adresse überprüfen."
+
+msgid "Selezionare la quota associativa e/o inserire un importo di donazione."
+msgstr "Bitte den Mitgliedsbeitrag auswählen und/oder einen Spendenbetrag eingeben."
+
+# ── E-Mail – Betreff ─────────────────────────────────────────────────────────
+
+msgid "Domanda di adesione ricevuta – La Botega da la Lavizzara"
+msgstr "Mitgliedschaftsantrag erhalten – La Botega da la Lavizzara"
+
+msgid "Benvenuto come Socio Onorario – La Botega da la Lavizzara"
+msgstr "Willkommen als Ehrenmitglied – La Botega da la Lavizzara"
+
+msgid "Conferma pagamento adesione – La Botega da la Lavizzara"
+msgstr "Zahlungsbestätigung Mitgliedschaft – La Botega da la Lavizzara"
+
+msgid "Promemoria pagamento – La Botega da la Lavizzara"
+msgstr "Zahlungserinnerung – La Botega da la Lavizzara"
+
+# ── E-Mail – Standardtexte ───────────────────────────────────────────────────
+
+msgid ""
+"Gentile {{nome}},\n"
+"\n"
+"abbiamo ricevuto la sua domanda di adesione alla Cooperativa \"La Botega da "
+"la Lavizzara\" come {{tipo_socio}}.\n"
+"\n"
+"In allegato trova il cedolino di pagamento con tutti i dati necessari per "
+"effettuare il versamento.\n"
+"\n"
+"⚠️ La sua adesione sarà attiva solo dopo la ricezione del pagamento della "
+"quota sociale di {{importo}}.\n"
+"\n"
+"ID Membro: {{id_membro}}\n"
+"ID Quota: {{id_quota}}\n"
+"\n"
+"Per qualsiasi informazione non esiti a contattarci.\n"
+"\n"
+"Cordiali saluti,\n"
+"La segreteria de La Botega da la Lavizzara\n"
+"labotegalavizzara@gmail.com"
+msgstr ""
+"Sehr geehrte/r {{nome}},\n"
+"\n"
+"wir haben Ihren Mitgliedschaftsantrag bei der Genossenschaft \"La Botega da "
+"la Lavizzara\" als {{tipo_socio}} erhalten.\n"
+"\n"
+"Im Anhang finden Sie den Einzahlungsschein mit allen erforderlichen Daten "
+"für die Zahlung.\n"
+"\n"
+"⚠️ Ihre Mitgliedschaft wird erst nach Eingang der Zahlung des "
+"Mitgliedsbeitrags von {{importo}} aktiv.\n"
+"\n"
+"Mitglieds-ID: {{id_membro}}\n"
+"Beitrags-ID: {{id_quota}}\n"
+"\n"
+"Für weitere Informationen stehen wir Ihnen gerne zur Verfügung.\n"
+"\n"
+"Mit freundlichen Grüßen,\n"
+"Das Sekretariat von La Botega da la Lavizzara\n"
+"labotegalavizzara@gmail.com"
+
+msgid ""
+"Gentile {{nome}},\n"
+"\n"
+"Confermiamo la ricezione del pagamento per la sua adesione alla Cooperativa.\n"
+"\n"
+"ID Membro: {{id_membro}}\n"
+"ID Quota: {{id_quota}}\n"
+"Importo: {{importo}}\n"
+"Data: {{data_adesione}}\n"
+"\n"
+"In allegato trova la conferma di pagamento e gli attestati.\n"
+"\n"
+"Grazie per il suo sostegno!\n"
+"La Botega da la Lavizzara"
+msgstr ""
+"Sehr geehrte/r {{nome}},\n"
+"\n"
+"wir bestätigen den Eingang der Zahlung für Ihre Mitgliedschaft bei der "
+"Genossenschaft.\n"
+"\n"
+"Mitglieds-ID: {{id_membro}}\n"
+"Beitrags-ID: {{id_quota}}\n"
+"Betrag: {{importo}}\n"
+"Datum: {{data_adesione}}\n"
+"\n"
+"Im Anhang finden Sie die Zahlungsbestätigung und die Bescheinigungen.\n"
+"\n"
+"Vielen Dank für Ihre Unterstützung!\n"
+"La Botega da la Lavizzara"
+
+msgid ""
+"Gentile {{nome}},\n"
+"\n"
+"siamo lieti di comunicarle che è stata designata/o come Socio Onorario della "
+"Cooperativa \"La Botega da la Lavizzara\".\n"
+"\n"
+"In allegato trova il suo attestato di Socio Onorario.\n"
+"\n"
+"Con stima e cordiali saluti,\n"
+"Il Comitato de La Botega da la Lavizzara"
+msgstr ""
+"Sehr geehrte/r {{nome}},\n"
+"\n"
+"wir freuen uns, Ihnen mitteilen zu können, dass Sie als Ehrenmitglied der "
+"Genossenschaft \"La Botega da la Lavizzara\" ernannt wurden.\n"
+"\n"
+"Im Anhang finden Sie Ihre Ehrenmitglieds-Bescheinigung.\n"
+"\n"
+"Mit hochachtungsvollen Grüßen,\n"
+"Der Vorstand von La Botega da la Lavizzara"
+
+msgid ""
+"Gentile {{nome}},\n"
+"\n"
+"la ricordiamo che risulta ancora in sospeso il pagamento della sua quota di "
+"adesione di {{importo}}.\n"
+"\n"
+"IBAN: {{iban}}\n"
+"Riferimento: {{id_quota}}\n"
+"\n"
+"Cordiali saluti,\n"
+"La Botega da la Lavizzara\n"
+"labotegalavizzara@gmail.com"
+msgstr ""
+"Sehr geehrte/r {{nome}},\n"
+"\n"
+"wir möchten Sie daran erinnern, dass die Zahlung Ihres Mitgliedsbeitrags "
+"von {{importo}} noch aussteht.\n"
+"\n"
+"IBAN: {{iban}}\n"
+"Referenz: {{id_quota}}\n"
+"\n"
+"Mit freundlichen Grüßen,\n"
+"La Botega da la Lavizzara\n"
+"labotegalavizzara@gmail.com"
+
+# ── Öffentliches Formular ────────────────────────────────────────────────────
+
+msgid "Donazione ricevuta!"
+msgstr "Spende erhalten!"
+
+msgid "Iscrizione ricevuta!"
+msgstr "Anmeldung erhalten!"
+
+msgid "Grazie per aver aderito alla Cooperativa La Botega da la Lavizzara! La tua donazione sarà attiva dopo la ricezione del pagamento."
+msgstr "Vielen Dank für Ihren Beitritt zur Genossenschaft La Botega da la Lavizzara! Ihre Spende wird nach Zahlungseingang aktiv."
+
+msgid "Grazie per aver aderito alla Cooperativa La Botega da la Lavizzara! La tua iscrizione sarà attiva dopo la ricezione del pagamento."
+msgstr "Vielen Dank für Ihren Beitritt zur Genossenschaft La Botega da la Lavizzara! Ihre Mitgliedschaft wird nach Zahlungseingang aktiv."
+
+msgid "Ti abbiamo inviato un'email con il cedolino di pagamento. Controlla la tua casella di posta (anche la cartella Spam)."
+msgstr "Wir haben Ihnen eine E-Mail mit dem Einzahlungsschein gesendet. Prüfen Sie Ihren Posteingang (auch den Spam-Ordner)."
+
+msgid "La tua iscrizione è stata registrata, ma non è stato possibile inviare l'email di conferma. Contattaci a labotegalavizzara@gmail.com indicando il tuo nome per ricevere il cedolino."
+msgstr "Ihre Anmeldung wurde erfasst, aber die Bestätigungs-E-Mail konnte nicht gesendet werden. Kontaktieren Sie uns unter labotegalavizzara@gmail.com und geben Sie Ihren Namen an, um den Einzahlungsschein zu erhalten."
+
+msgid "Riceverai a breve un'email con il cedolino di pagamento."
+msgstr "Sie erhalten in Kürze eine E-Mail mit dem Einzahlungsschein."
+
+msgid "← Torna alla homepage"
+msgstr "← Zurück zur Startseite"
+
+msgid "⚠️ Attenzione:"
+msgstr "⚠️ Achtung:"
+
+msgid "Dati personali"
+msgstr "Persönliche Daten"
+
+msgid "Cognome e nome"
+msgstr "Nachname und Vorname"
+
+msgid "Via / Strada…"
+msgstr "Straße / Weg…"
+
+msgid "CAP"
+msgstr "PLZ"
+
+msgid "Località"
+msgstr "Ort"
+
+msgid "Comune / Città"
+msgstr "Gemeinde / Stadt"
+
+msgid "Numero di telefono"
+msgstr "Telefonnummer"
+
+msgid "E-mail"
+msgstr "E-Mail"
+
+msgid "Riceverai il cedolino di pagamento a questo indirizzo."
+msgstr "Sie erhalten den Einzahlungsschein an diese Adresse."
+
+msgid "Note (facoltativo)"
+msgstr "Anmerkungen (optional)"
+
+msgid "Eventuali note o messaggi per il comitato…"
+msgstr "Eventuelle Anmerkungen oder Nachrichten an den Vorstand…"
+
+msgid "Quota e contributo"
+msgstr "Beitrag und Spende"
+
+msgid "Quota associativa"
+msgstr "Mitgliedsbeitrag"
+
+msgid "Donazione volontaria"
+msgstr "Freiwillige Spende"
+
+msgid "Importo donazione (CHF)"
+msgstr "Spendenbetrag (CHF)"
+
+msgid "Importo totale:"
+msgstr "Gesamtbetrag:"
+
+msgid "Modalità di pagamento:"
+msgstr "Zahlungsart:"
+
+msgid "Riceverai un cedolino di pagamento via email. Potrai pagare tramite:"
+msgstr "Sie erhalten einen Einzahlungsschein per E-Mail. Sie können bezahlen per:"
+
+msgid "E-banking (QR code)"
+msgstr "E-Banking (QR-Code)"
+
+msgid "Bonifico bancario"
+msgstr "Banküberweisung"
+
+msgid "Ufficio postale / Banca"
+msgstr "Postamt / Bank"
+
+msgid "Ho letto e accetto la %spolitica sulla privacy%s e lo statuto della Cooperativa."
+msgstr "Ich habe die %sDatenschutzrichtlinie%s und die Satzung der Genossenschaft gelesen und akzeptiere sie."
+
+msgid "Invia adesione / donazione"
+msgstr "Mitgliedschaft / Spende senden"
+
+msgid "Campi obbligatori"
+msgstr "Pflichtfelder"
+
+# ── Admin-Formular (Datensatz-Karte) ─────────────────────────────────────────
+
+msgid "Modifica: %s"
+msgstr "Bearbeiten: %s"
+
+msgid "← Torna all'elenco"
+msgstr "← Zurück zur Liste"
+
+msgid "Elimina record"
+msgstr "Datensatz löschen"
+
+msgid "Stampa / PDF"
+msgstr "Drucken / PDF"
+
+msgid "Dati anagrafici"
+msgstr "Persönliche Daten"
+
+msgid "Cognome e nome *"
+msgstr "Nachname und Vorname *"
+
+msgid "Indirizzo"
+msgstr "Adresse"
+
+msgid "Telefono"
+msgstr "Telefon"
+
+msgid "E-mail *"
+msgstr "E-Mail *"
+
+msgid "Tipo socio"
+msgstr "Mitgliedstyp"
+
+msgid "Data adesione"
+msgstr "Beitrittsdatum"
+
+msgid "Dati versamento (bollettino QR)"
+msgstr "Zahlungsdaten (QR-Einzahlungsschein)"
+
+msgid "Compilare se diversi dai dati anagrafici."
+msgstr "Ausfüllen, wenn abweichend von den persönlichen Daten."
+
+msgid "Cognome e nome versamento"
+msgstr "Nachname und Vorname Zahlung"
+
+msgid "Indirizzo versamento"
+msgstr "Adresse Zahlung"
+
+msgid "CAP e Località"
+msgstr "PLZ und Ort"
+
+msgid "Note"
+msgstr "Anmerkungen"
+
+msgid "Documenti PDF"
+msgstr "PDF-Dokumente"
+
+msgid "Genera PDF"
+msgstr "PDF generieren"
+
+msgid "Nessun documento generato ancora."
+msgstr "Noch kein Dokument generiert."
+
+msgid "Scarica"
+msgstr "Herunterladen"
+
+msgid "Rinomina"
+msgstr "Umbenennen"
+
+msgid "Elimina"
+msgstr "Löschen"
+
+msgid "Invia cedolino per email"
+msgstr "Einzahlungsschein per E-Mail senden"
+
+msgid "Genera il cedolino PDF e lo invia via email. Aggiorna lo stato a \"Inviato\" oppure \"Errore invio\"."
+msgstr "Generiert den PDF-Einzahlungsschein und sendet ihn per E-Mail. Aktualisiert den Status auf \"Versendet\" oder \"Sendefehler\"."
+
+msgid "Quota e importo"
+msgstr "Beitrag und Betrag"
+
+msgid "Quota associativa CHF 250.00"
+msgstr "Mitgliedsbeitrag CHF 250.00"
+
+msgid "Donazione"
+msgstr "Spende"
+
+msgid "Donazione (CHF)"
+msgstr "Spende (CHF)"
+
+msgid "Importo totale"
+msgstr "Gesamtbetrag"
+
+msgid "Importo totale calcolato"
+msgstr "Berechneter Gesamtbetrag"
+
+msgid "Pagamento"
+msgstr "Zahlung"
+
+msgid "Metodo di pagamento"
+msgstr "Zahlungsmethode"
+
+msgid "Stato pagamento"
+msgstr "Zahlungsstatus"
+
+msgid "Invia richiamo pagamento"
+msgstr "Zahlungserinnerung senden"
+
+msgid "Invia email di richiamo all'indirizzo del socio."
+msgstr "Sendet eine Erinnerungs-E-Mail an die Adresse des Mitglieds."
+
+msgid "Informazioni record"
+msgstr "Datensatz-Informationen"
+
+msgid "ID DB:"
+msgstr "ID DB:"
+
+msgid "ID Membro:"
+msgstr "Mitglieds-ID:"
+
+msgid "ID Quota:"
+msgstr "Beitrags-ID:"
+
+msgid "Creato:"
+msgstr "Erstellt:"
+
+msgid "Modificato:"
+msgstr "Geändert:"
+
+msgid "Salva modifiche"
+msgstr "Änderungen speichern"
+
+msgid "Crea adesione"
+msgstr "Mitgliedschaft erstellen"
+
+msgid "Annulla"
+msgstr "Abbrechen"
+
+# ── Mitgliedschaftsliste ─────────────────────────────────────────────────────
+
+msgid "Pagina iscrizione pubblica"
+msgstr "Öffentliche Anmeldeseite"
+
+msgid "Totale"
+msgstr "Gesamt"
+
+msgid "Pagati"
+msgstr "Bezahlt"
+
+msgid "In attesa"
+msgstr "Ausstehend"
+
+msgid "Incassato"
+msgstr "Eingezogen"
+
+msgid "Da incassare"
+msgstr "Einzuziehen"
+
+msgid "Tutti"
+msgstr "Alle"
+
+msgid "Cerca nome, email, telefono…"
+msgstr "Name, E-Mail, Telefon suchen…"
+
+msgid "Logica di filtro"
+msgstr "Filterlogik"
+
+msgid "Logica: E (AND)"
+msgstr "Logik: UND (AND)"
+
+msgid "Logica: O (OR)"
+msgstr "Logik: ODER (OR)"
+
+msgid "+ Aggiungi filtro"
+msgstr "+ Filter hinzufügen"
+
+msgid "Applica"
+msgstr "Anwenden"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Cognome e nome"
+msgstr "Nachname und Vorname"
+
+msgid "Metodo pagamento"
+msgstr "Zahlungsmethode"
+
+msgid "Luogo"
+msgstr "Ort"
+
+msgid "Invia richiamo ai selezionati"
+msgstr "Erinnerung an Ausgewählte senden"
+
+msgid "Richiamo a tutti sospesi/inviati"
+msgstr "Erinnerung an alle Ausstehenden/Gesendeten"
+
+msgid "Esporta:"
+msgstr "Exportieren:"
+
+msgid "ID Membro"
+msgstr "Mitglieds-ID"
+
+msgid "ID Quota"
+msgstr "Beitrags-ID"
+
+msgid "Metodo"
+msgstr "Methode"
+
+msgid "Stato"
+msgstr "Status"
+
+msgid "Importo"
+msgstr "Betrag"
+
+msgid "Data"
+msgstr "Datum"
+
+msgid "Azioni"
+msgstr "Aktionen"
+
+msgid "Nessun record trovato."
+msgstr "Kein Datensatz gefunden."
+
+msgid "Attestato generato"
+msgstr "Bescheinigung generiert"
+
+msgid "Modifica"
+msgstr "Bearbeiten"
+
+msgid "Rimuovi"
+msgstr "Entfernen"
+
+msgid "%d record"
+msgid_plural "%d record"
+msgstr[0] "%d Eintrag"
+msgstr[1] "%d Einträge"
+
+# ── Export ───────────────────────────────────────────────────────────────────
+
+msgid "Elenco Adesioni"
+msgstr "Mitgliedschaftsliste"
+
+msgid "La Botega da la Lavizzara – Elenco Adesioni"
+msgstr "La Botega da la Lavizzara – Mitgliedschaftsliste"
+
+msgid "Stampato il %s – Totale record: %d"
+msgstr "Gedruckt am %s – Gesamteinträge: %d"
+
+msgid "Data creazione"
+msgstr "Erstellungsdatum"
+
+msgid "Quota 250.00"
+msgstr "Beitrag 250.00"
+
+# ── Einstellungen ────────────────────────────────────────────────────────────
+
+msgid "Pagina pubblica di iscrizione"
+msgstr "Öffentliche Anmeldeseite"
+
+msgid "La pagina pubblica di iscrizione è attiva. Chiunque può compilare il modulo senza effettuare il login."
+msgstr "Die öffentliche Anmeldeseite ist aktiv. Jeder kann das Formular ohne Anmeldung ausfüllen."
+
+msgid "Visualizza pagina pubblica"
+msgstr "Öffentliche Seite anzeigen"
+
+msgid "Modifica pagina"
+msgstr "Seite bearbeiten"
+
+msgid "URL:"
+msgstr "URL:"
+
+msgid "Shortcode usato nella pagina:"
+msgstr "In der Seite verwendeter Shortcode:"
+
+msgid "— puoi inserirlo in qualsiasi altra pagina WordPress."
+msgstr "— Sie können ihn in jede andere WordPress-Seite einfügen."
+
+msgid "La pagina pubblica non è ancora stata creata."
+msgstr "Die öffentliche Seite wurde noch nicht erstellt."
+
+msgid "+ Crea pagina pubblica"
+msgstr "+ Öffentliche Seite erstellen"
+
+msgid "Autocomplete indirizzo"
+msgstr "Adress-Autovervollständigung"
+
+msgid "Il form pubblico usa OpenStreetMap (Nominatim) per l'autocomplete degli indirizzi, gratuitamente e senza API key. Per usare Google Places (più preciso), inserire una chiave API Google Maps con il servizio \"Places API\" abilitato."
+msgstr "Das öffentliche Formular verwendet OpenStreetMap (Nominatim) für die Adress-Autovervollständigung, kostenlos und ohne API-Schlüssel. Für Google Places (präziser) geben Sie einen Google Maps API-Schlüssel mit aktiviertem \"Places API\"-Dienst ein."
+
+msgid "Chiave API Google Maps (facoltativa)"
+msgstr "Google Maps API-Schlüssel (optional)"
+
+msgid "Lasciare vuoto per usare OpenStreetMap (gratuito, nessuna registrazione richiesta)."
+msgstr "Leer lassen, um OpenStreetMap zu verwenden (kostenlos, keine Registrierung erforderlich)."
+
+msgid "Mittente email"
+msgstr "E-Mail-Absender"
+
+msgid "Nome mittente"
+msgstr "Absendername"
+
+msgid "Email mittente"
+msgstr "Absender-E-Mail"
+
+msgid "Configurazione SMTP"
+msgstr "SMTP-Konfiguration"
+
+msgid "⚠️ Il server non supporta la funzione mail() di PHP. Configurare un server SMTP per inviare email correttamente (es. Gmail, Infomaniak, Outlook)."
+msgstr "⚠️ Der Server unterstützt die PHP-Funktion mail() nicht. Konfigurieren Sie einen SMTP-Server zum korrekten E-Mail-Versand (z. B. Gmail, Infomaniak, Outlook)."
+
+msgid "Abilita invio via SMTP"
+msgstr "Versand über SMTP aktivieren"
+
+msgid "Server SMTP (Host)"
+msgstr "SMTP-Server (Host)"
+
+msgid "Porta"
+msgstr "Port"
+
+msgid "587 = TLS (raccomandato) · 465 = SSL · 25 = nessuna cifratura"
+msgstr "587 = TLS (empfohlen) · 465 = SSL · 25 = keine Verschlüsselung"
+
+msgid "Cifratura"
+msgstr "Verschlüsselung"
+
+msgid "Username SMTP"
+msgstr "SMTP-Benutzername"
+
+msgid "Password SMTP"
+msgstr "SMTP-Passwort"
+
+msgid "Lasciare vuoto per mantenere la password attuale."
+msgstr "Leer lassen, um das aktuelle Passwort beizubehalten."
+
+msgid "Password salvata"
+msgstr "Passwort gespeichert"
+
+msgid "Configurazioni rapide:"
+msgstr "Schnellkonfigurationen:"
+
+msgid "Email conferma pagamento"
+msgstr "Zahlungsbestätigungs-E-Mail"
+
+msgid "Inviata automaticamente quando una fattura viene impostata su \"Pagato\"."
+msgstr "Wird automatisch gesendet, wenn eine Rechnung auf \"Bezahlt\" gesetzt wird."
+
+msgid "Placeholder disponibili: {{nome}}, {{email}}, {{tipo_socio}}, {{importo}}, {{quota}}, {{donazione}}, {{metodo}}, {{stato}}, {{data_adesione}}, {{luogo}}, {{iban}}, {{associazione}}, {{data_oggi}}"
+msgstr "Verfügbare Platzhalter: {{nome}}, {{email}}, {{tipo_socio}}, {{importo}}, {{quota}}, {{donazione}}, {{metodo}}, {{stato}}, {{data_adesione}}, {{luogo}}, {{iban}}, {{associazione}}, {{data_oggi}}"
+
+msgid "Oggetto"
+msgstr "Betreff"
+
+msgid "Corpo email"
+msgstr "E-Mail-Text"
+
+msgid "Email richiamo pagamento"
+msgstr "Zahlungserinnerungs-E-Mail"
+
+msgid "Inviata manualmente ai soci con pagamento sospeso/inviato. Stessi placeholder dell'email di conferma."
+msgstr "Wird manuell an Mitglieder mit ausstehender/gesendeter Zahlung gesendet. Gleiche Platzhalter wie die Bestätigungs-E-Mail."
+
+msgid "Salva impostazioni"
+msgstr "Einstellungen speichern"
+
+# ── Benutzerdefinierte Felder (Admin) ────────────────────────────────────────
+
+msgid "Aggiungi campi aggiuntivi al modulo adesioni. I campi vengono creati automaticamente nel database."
+msgstr "Fügen Sie dem Anmeldeformular zusätzliche Felder hinzu. Die Felder werden automatisch in der Datenbank erstellt."
+
+msgid "Aggiungi nuovo campo"
+msgstr "Neues Feld hinzufügen"
+
+msgid "Label (nome visibile)"
+msgstr "Bezeichnung (sichtbarer Name)"
+
+msgid "es. Data rinnovo"
+msgstr "z. B. Verlängerungsdatum"
+
+msgid "Tipo di campo"
+msgstr "Feldtyp"
+
+msgid "Opzioni (una per riga)"
+msgstr "Optionen (eine pro Zeile)"
+
+msgid "+ Aggiungi campo"
+msgstr "+ Feld hinzufügen"
+
+msgid "Campi esistenti"
+msgstr "Vorhandene Felder"
+
+msgid "Nessun campo personalizzato ancora."
+msgstr "Noch keine benutzerdefinierten Felder."
+
+msgid "#"
+msgstr "#"
+
+msgid "Label"
+msgstr "Bezeichnung"
+
+msgid "Chiave DB"
+msgstr "DB-Schlüssel"
+
+msgid "Tipo"
+msgstr "Typ"
+
+msgid "Opzioni"
+msgstr "Optionen"
+
+# ── Rollen ───────────────────────────────────────────────────────────────────
+
+msgid "Assegna ruolo a un utente"
+msgstr "Einem Benutzer eine Rolle zuweisen"
+
+msgid "Gli utenti con questi ruoli possono accedere a tutte le pagine del plugin. Gli Amministratori hanno sempre accesso."
+msgstr "Benutzer mit diesen Rollen können auf alle Seiten des Plugins zugreifen. Administratoren haben immer Zugriff."
+
+msgid "— Seleziona utente —"
+msgstr "— Benutzer auswählen —"
+
+msgid "+ Assegna ruolo"
+msgstr "+ Rolle zuweisen"
+
+msgid "Nessun utente con questo ruolo."
+msgstr "Kein Benutzer mit dieser Rolle."
+
+msgid "Nome"
+msgstr "Name"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Azione"
+msgstr "Aktion"
+
+msgid "✕ Rimuovi"
+msgstr "✕ Entfernen"
+
+msgid "Rimuovere %1$s dal ruolo %2$s?"
+msgstr "%1$s aus der Rolle %2$s entfernen?"
+
+msgid "Nota:"
+msgstr "Hinweis:"
+
+msgid "Gli Amministratori di WordPress hanno sempre accesso al plugin."
+msgstr "WordPress-Administratoren haben immer Zugriff auf das Plugin."
+
+msgid "✅ %1$s assegnato al ruolo \"%2$s\"."
+msgstr "✅ %1$s der Rolle \"%2$s\" zugewiesen."
+
+msgid "✅ %1$s rimosso dal ruolo \"%2$s\"."
+msgstr "✅ %1$s aus der Rolle \"%2$s\" entfernt."
+
+# ── PDF Bescheinigung ────────────────────────────────────────────────────────
+
+msgid "Attestato di Donazione"
+msgstr "Spendenbescheinigung"
+
+msgid "Attestato di Membro"
+msgstr "Mitgliedsbescheinigung"
+
+msgid "Ricevuta e ringraziamento per la donazione"
+msgstr "Quittung und Dankschreiben für die Spende"
+
+msgid "Anno %s"
+msgstr "Jahr %s"
+
+msgid "Cooperativa La Botega da la Lavizzara"
+msgstr "Genossenschaft La Botega da la Lavizzara"
+
+msgid "La Società Cooperativa La Botega da la Lavizzara ringrazia con gratitudine"
+msgstr "Die Genossenschaft La Botega da la Lavizzara dankt herzlich"
+
+msgid "La Società Cooperativa La Botega da la Lavizzara certifica che"
+msgstr "Die Genossenschaft La Botega da la Lavizzara bestätigt, dass"
+
+msgid "Campo"
+msgstr "Feld"
+
+msgid "Valore"
+msgstr "Wert"
+
+msgid "Il Comitato de La Botega da la Lavizzara"
+msgstr "Der Vorstand von La Botega da la Lavizzara"
+
+msgid "Il presente documento certifica la ricezione della donazione indicata. La donazione è deducibile fiscalmente secondo la legislazione vigente (art. 33a LF/LIFD). Si consiglia di conservare questo documento ai fini fiscali."
+msgstr "Dieses Dokument bestätigt den Eingang der angegebenen Spende. Die Spende ist gemäß geltendem Recht steuerlich absetzbar (Art. 33a DBG/StHG). Es wird empfohlen, dieses Dokument für Steuerzwecke aufzubewahren."
+
+msgid "è regolarmente iscritto/a alla Società Cooperativa \"La Botega da la Lavizzara\" e ha versato la quota sociale conformemente allo statuto vigente. Il presente attestato è valido per l'anno di riferimento indicato."
+msgstr "ist ordentliches Mitglied der Genossenschaft \"La Botega da la Lavizzara\" und hat den Mitgliedsbeitrag gemäß der geltenden Satzung entrichtet. Diese Bescheinigung ist für das angegebene Referenzjahr gültig."
+
+msgid "\"Il suo generoso contributo sostiene la nostra comunità e ci permette di continuare a valorizzare i prodotti e le tradizioni della Valle Lavizzara. La ringraziamo di cuore.\""
+msgstr "\"Ihr großzügiger Beitrag unterstützt unsere Gemeinschaft und ermöglicht es uns, die Produkte und Traditionen des Valle Lavizzara weiterhin zu fördern. Wir danken Ihnen von Herzen.\""
+
+msgid "Il Presidente"
+msgstr "Der Präsident"
+
+msgid "Prato Sornico, %s"
+msgstr "Prato Sornico, %s"
+
+msgid "La Segretaria"
+msgstr "Die Sekretärin"
+
+# ── PDF Zahlungsbestätigung ──────────────────────────────────────────────────
+
+msgid "Conferma di Pagamento"
+msgstr "Zahlungsbestätigung"
+
+msgid "Emessa il %s"
+msgstr "Ausgestellt am %s"
+
+msgid "Pagamento ricevuto e registrato con successo"
+msgstr "Zahlung erfolgreich erhalten und registriert"
+
+msgid "Gentile %s,"
+msgstr "Sehr geehrte/r %s,"
+
+msgid "confermiamo la ricezione del suo versamento. La sua adesione alla Cooperativa è ora attiva."
+msgstr "wir bestätigen den Eingang Ihrer Zahlung. Ihre Mitgliedschaft bei der Genossenschaft ist jetzt aktiv."
+
+msgid "IMPORTO TOTALE VERSATO"
+msgstr "GESAMTBETRAG BEZAHLT"
+
+msgid "La ringraziamo per il suo contributo e la accogliamo con piacere nella nostra comunità cooperativa."
+msgstr "Wir danken Ihnen für Ihren Beitrag und heißen Sie herzlich in unserer Genossenschaftsgemeinschaft willkommen."
+
+msgid "Con cordiali saluti,"
+msgstr "Mit freundlichen Grüßen,"
+
+msgid "La Botega da la Lavizzara"
+msgstr "La Botega da la Lavizzara"
+
+# ── WordPress-Seite Mitgliedschaft ───────────────────────────────────────────
+
+msgid "Adesione alla Cooperativa"
+msgstr "Mitgliedschaft in der Genossenschaft"
